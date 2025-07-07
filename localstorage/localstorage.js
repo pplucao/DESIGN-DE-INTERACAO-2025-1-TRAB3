@@ -1,10 +1,10 @@
-import { initHeaderListeners } from '../header/headerListeners.js'
-import { initMenuListeners } from '../menu/menuListeners.js'
-import { initGaleriaListeners } from '../galeria/galeriaListeners.js'
-import { initFormListeners } from '../formulario/formularioListeners.js'
-import { initFooterListeners } from '../footer/footerListeners.js' 
-import { initDogApi } from '../apiInterativa/apiFunctions.js'
-import { initAPIButton } from '../dadosAPIS/apis.js'
+import { initHeaderListeners } from './header/headerListeners.js'
+import { initMenuListeners } from './menu/menuListeners.js'
+import { initGaleriaListeners } from './galeria/galeriaListeners.js'
+import { initFormListeners } from './formulario/formularioListeners.js'
+import { initFooterListeners } from './footer/footerListeners.js' 
+import { initDogApi } from './apiInterativa/apiFunctions.js'
+import { initAPIButton } from './dadosAPIS/apis.js'
 
 export function setupLocalStorageControls() {
     // Elementos da UI
