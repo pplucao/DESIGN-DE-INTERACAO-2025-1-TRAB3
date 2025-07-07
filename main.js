@@ -1,18 +1,18 @@
 import { pagePreview, initPagePreview } from './pagePreview.js';
-import { criarHeader } from './header/headerFunctions.js';
-import { initHeaderListeners } from './header/headerListeners.js';
-import { initMenuListeners } from './menu/menuListeners.js';
-import { criarMenu } from './menu/menuFunctions.js';
-import { criarGaleria } from './galeria/galeriaFunctions.js';
-import { initGaleriaListeners } from './galeria/galeriaListeners.js';
-import { criarFormulario } from './formulario/formularioFunctions.js';
-import { initFormListeners } from './formulario/formularioListeners.js';
-import { initDogApi } from './apiInterativa/apiFunctions.js';
-import { initAPIButton } from './dadosAPIS/apis.js';
+import { criarHeader } from '../header/headerFunctions.js';
+import { initHeaderListeners } from '../header/headerListeners.js';
+import { initMenuListeners } from '../menu/menuListeners.js';
+import { criarMenu } from '../menu/menuFunctions.js';
+import { criarGaleria } from '../galeria/galeriaFunctions.js';
+import { initGaleriaListeners } from '../galeria/galeriaListeners.js';
+import { criarFormulario } from '../formulario/formularioFunctions.js';
+import { initFormListeners } from '../formulario/formularioListeners.js';
+import { initDogApi } from '../apiInterativa/apiFunctions.js';
+import { initAPIButton } from '../dadosAPIS/apis.js';
 import { criarAPIContainers } from './apiContainers.js';
-import { criarFooter } from './footer/footerFunctions.js';
-import { initFooterListeners } from './footer/footerListeners.js';
-import { setupLocalStorageControls } from './localstorage/localstorage.js';
+import { criarFooter } from '../footer/footerFunctions.js';
+import { initFooterListeners } from '../footer/footerListeners.js';
+import { setupLocalStorageControls } from '../localstorage/localstorage.js';
 
 document.addEventListener('DOMContentLoaded', async () => {
     // Verificação robusta do pagePreview
