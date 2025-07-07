@@ -15,6 +15,9 @@ import { initFooterListeners } from './footer/footerListeners.js';
 import { setupLocalStorageControls } from './localstorage/localstorage.js';
 
 document.addEventListener('DOMContentLoaded', async () => {
+
+    initPagePreview();
+    
     // Verificação robusta do pagePreview
     if (!initPagePreview()) {
         console.error('Erro: pagePreview não inicializado!');
