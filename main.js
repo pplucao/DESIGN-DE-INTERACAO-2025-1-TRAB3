@@ -1,5 +1,5 @@
 import { pagePreview, initPagePreview } from './pagePreview.js';
-import { criarHeader } from '../header/headerFunctions.js';
+import { criarHeader } from './header/headerFunctions.js';
 import { initHeaderListeners } from './header/headerListeners.js';
 import { initMenuListeners } from './menu/menuListeners.js';
 import { criarMenu } from './menu/menuFunctions.js';
