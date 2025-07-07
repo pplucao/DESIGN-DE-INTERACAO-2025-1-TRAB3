@@ -1,4 +1,4 @@
-import { pagePreview } from '../pagePreview.js';
+
 
 export const headerElements = {
     headerBgColor: document.getElementById('headerBgColor'),
