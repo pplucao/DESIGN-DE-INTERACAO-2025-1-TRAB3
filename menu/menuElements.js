@@ -1,4 +1,4 @@
-import { pagePreview } from '../pagePreview.js';
+
 
 export const menuElements = {
     menuColor: document.getElementById('menu-color'),
