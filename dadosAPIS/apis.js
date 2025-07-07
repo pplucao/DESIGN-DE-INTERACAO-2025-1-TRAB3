@@ -6,7 +6,7 @@ export async function fetchThreeAPIs() {
     // Array de Promises para as 3 APIs
     const responses = await Promise.all([
       fetch('https://api.thecatapi.com/v1/images/search'),
-      fetch('http://numbersapi.com/random/trivia?json'),
+      fetch('https://api.spacexdata.com/v5/launches/latest'),
       fetch('https://icanhazdadjoke.com/', {
         headers: {
           'Accept': 'application/json'
@@ -19,7 +19,7 @@ export async function fetchThreeAPIs() {
 
     return {
       catData: data[0][0],    // API de Gatos retorna array
-      numberData: data[1],    // API de Números
+      spaceData: data[1],    // API da space
       jokeData: data[2]       // API de Piadas
     };
   } catch (error) {
@@ -43,8 +43,8 @@ export function displayAPIsData(apiData) {
                 <img src="${apiData.catData.url}" alt="Gato aleatório" class="api-image">
             </div>
             <div class="api-item">
-                <h4>Fato Numérico</h4>
-                <p>${apiData.numberData.text}</p>
+                <h4>Spacex</h4>
+                <p>${apiData.spaceData.name}</p>
             </div>
             <div class="api-item">
                 <h4>Piada de Pai</h4>
