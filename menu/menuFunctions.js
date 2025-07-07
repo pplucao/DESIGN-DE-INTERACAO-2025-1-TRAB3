@@ -1,5 +1,6 @@
-import { pagePreview } from '../pagePreview.js';
 import { menuElements, menuState } from './menuElements.js';
+
+const pagePreview = document.getElementById('pagePreview');
 
 export function criarMenu(){
     if (menuState.element) return;
@@ -86,3 +87,4 @@ export function atualizarEstilosMenu() {
         item.style.borderRadius = '4px';
     });
 }
+
