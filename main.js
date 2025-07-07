@@ -1,4 +1,4 @@
-import { pagePreview, initPagePreview } from './pagePreview.js';
+import { initPagePreview } from './pagePreview.js';
 import { criarHeader } from './header/headerFunctions.js';
 import { initHeaderListeners } from './header/headerListeners.js';
 import { initMenuListeners } from './menu/menuListeners.js';
