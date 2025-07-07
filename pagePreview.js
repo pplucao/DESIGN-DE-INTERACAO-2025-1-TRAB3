@@ -1,12 +1,9 @@
-let pagePreview;
-
 export const initPagePreview = () => {
-    pagePreview = document.getElementById('pagePreview');
-    if (!pagePreview) {
-        console.error('Elemento pagePreview não encontrado!');
-        return false;
-    }
-    return true;
-};
+  const pagePreview = document.getElementById('pagePreview');
 
-export { pagePreview };
+  if (!pagePreview) {
+    console.error('Elemento pagePreview não encontrado!');
+    return false;
+  }
+  return true;
+};
